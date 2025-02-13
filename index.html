@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Registration Form</h1>
+
+        <form action="./thankspage.html">
+            <div>
+                <label for="name">Name :</label>
+                <input type="text" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" name="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender :</label>
+                <input type="radio" name="gender" id="gender">Male
+                <input type="radio" name="gender" id="gender">Female
+                <input type="radio" name="gender" id="gender">Other
+
+            </div>
+            <br>
+            <div>
+                <label for="hobbies">Hobbies :</label>
+                <input type="checkbox" name="reading">Reading
+                <input type="checkbox" name="travelling">Travelling
+                <input type="checkbox" name="cooking">Cooking
+                <input type="checkbox" name="sports">Sports
+            </div>
+            <br>
+            <div>
+                <label for="City">City :</label>
+                <select name="city">
+                    <option value="none">Select your city</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Kanpur">Kanpur</option>
+                    <option value="Agra">Agra</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth :</label>
+                <input type="date" name="dob">
+            </div>
+            <br>
+            <div>
+                <label for="phoneno">Phone Number :</label>
+                <input type="tel" name="phoneno" maxlength="10" minlength="10">
+            </div>
+            <br>
+            <div>
+                <label for="Address">Address :</label>
+                <div>
+                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                </div>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
